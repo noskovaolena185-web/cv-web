@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Olena | Junior Frontend Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="container header__inner">
+
+        <a href="#home" class="header__logo">
+            olena.dev
+        </a>
+
+        <nav class="header__nav">
+            <a class="header__link" href="#home">Головна</a>
+            <a class="header__link" href="#projects">Проєкти</a>
+            <a class="header__link" href="#about">Про мене</a>
+            <a class="header__link" href="#contact">Контакти</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+
+    <section class="section section--hero" id="home">
+
+        <div class="container hero">
+
+            <div class="hero__content">
+
+                <p class="hero__label">
+                    Junior Frontend Developer
+                </p>
+
+                <h1 class="hero__title">
+                    Building<br>
+                    for the web.
+                </h1>
+
+                <div class="hero__bottom">
+
+                    <p class="hero__description">
+                        Студентка Software Engineering, яка розвивається у веб-розробці
+                        та працює над практичними проєктами.
+                    </p>
+
+                    <a
+                        class="button button--outline"
+                        href="files/CVVNoskova Olena.pdf"
+                        target="_blank"
+                    >
+                        Переглянути CV ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="section section--projects" id="projects">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+                    <p class="section-heading__label">
+                        Selected work
+                    </p>
+
+                    <h2 class="section-heading__title">
+                        The<br>
+                        Projects.
+                    </h2>
+                </div>
+
+                <p class="section-heading__description">
+                    Проєкти, у яких я працювала з веб-технологіями,
+                    backend-логікою, C++ та взаємодією між різними частинами застосунку.
+                </p>
+
+            </div>
+
+
+            <div class="projects">
+
+
+                <!-- PROJECT 01 -->
+
+                <article class="project">
+
+                    <button
+                        class="project__header"
+                        type="button"
+                        aria-expanded="false"
+                    >
+
+                        <div class="project__number">
+                            01
+                        </div>
+
+                        <div class="project__name">
+                            <h3>System Metrics</h3>
+
+                            <p>
+                                Node.js / JavaScript / C++ / N-API / SSE / SmoothieChart
+                            </p>
+                        </div>
+
+                        <div class="project__toggle">
+                            +
+                        </div>
+
+                    </button>
+
+
+                    <div class="project__body">
+
+                        <div class="project__content project__content--vertical">
+
+
+                            <div class="project__visual project__visual--wide">
+
+                                <img
+                                    src="images/system-metrics.png"
+                                    alt="System Metrics preview"
+                                >
+
+                            </div>
+
+
+                            <div class="project__info">
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Про проєкт
+                                    </span>
+
+                                    <p>
+                                        Невеликий застосунок для моніторингу оперативної пам’яті macOS
+                                        у реальному часі. Дані про вільну та активну пам’ять
+                                        отримуються через нативний C++ модуль і передаються
+                                        у браузер через SSE.
+                                    </p>
+
+                                    <p>
+                                        На frontend дані обробляються через EventSource,
+                                        відображаються у числовому вигляді та додаються
+                                        на live-графік через SmoothieChart.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Що реалізовано
+                                    </span>
+
+                                    <ul class="project__list">
+                                        <li>Збір memory statistics через macOS Mach API</li>
+                                        <li>Нативний Node.js addon на C++ через N-API</li>
+                                        <li>Передача метрик через Server-Sent Events</li>
+                                        <li>Оновлення даних без перезавантаження сторінки</li>
+                                        <li>Візуалізація метрик через SmoothieChart</li>
+                                        <li>Обробка втрати SSE-з’єднання</li>
+                                    </ul>
+
+                                </div>
+
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Technologies
+                                    </span>
+
+                                    <div class="project__tags">
+                                        <span>JavaScript</span>
+                                        <span>Node.js</span>
+                                        <span>C++</span>
+                                        <span>N-API</span>
+                                        <span>SSE</span>
+                                        <span>Mach API</span>
+                                        <span>SmoothieChart</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 02 -->
+
+                <article class="project">
+
+                    <button
+                        class="project__header"
+                        type="button"
+                        aria-expanded="false"
+                    >
+
+                        <div class="project__number">
+                            02
+                        </div>
+
+                        <div class="project__name">
+                            <h3>Towers of Hanoi 3D</h3>
+
+                            <p>
+                                C++ / OpenGL / GLUT / OOP
+                            </p>
+                        </div>
+
+                        <div class="project__toggle">
+                            +
+                        </div>
+
+                    </button>
+
+
+                    <div class="project__body">
+
+                        <div class="project__course">
+
+
+                            <div class="project-gallery">
+
+                                <img
+                                    src="images/hanoi-1.png"
+                                    alt="Towers of Hanoi 3D scene"
+                                >
+
+                                <img
+                                    src="images/hanoi-2.png"
+                                    alt="Towers of Hanoi gameplay"
+                                >
+
+                                <img
+                                    src="images/hanoi-3.png"
+                                    alt="Game statistics"
+                                >
+
+                                <img
+                                    src="images/hanoi-4.png"
+                                    alt="Towers of Hanoi project structure"
+                                >
+
+                            </div>
+
+
+                            <div class="project__info">
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Про проєкт
+                                    </span>
+
+                                    <p>
+                                        Курсова робота — 3D-реалізація головоломки
+                                        «Ханойські вежі» на C++ з використанням OpenGL та GLUT.
+                                        Програма відображає три стрижні та диски у тривимірній
+                                        сцені й дозволяє користувачу самостійно виконувати ходи.
+                                    </p>
+
+                                    <p>
+                                        Ігрова логіка контролює правильність переміщення дисків
+                                        і не дозволяє розміщувати більший диск поверх меншого.
+                                        Після кожного ходу оновлюється стан гри та перевіряється
+                                        умова перемоги.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Архітектура
+                                    </span>
+
+                                    <p>
+                                        Проєкт побудований з використанням OOP.
+                                        Клас <strong>Disk</strong> зберігає параметри диска
+                                        та відповідає за його rendering у 3D-сцені.
+                                        Клас <strong>HanoiBoard</strong> зберігає стан стрижнів,
+                                        обробляє переміщення та перевіряє правила гри.
+                                    </p>
+
+                                    <p>
+                                        У <strong>main.cpp</strong> реалізовано ініціалізацію
+                                        OpenGL/GLUT, основний цикл програми та обробку подій
+                                        клавіатури й миші.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Що реалізовано
+                                    </span>
+
+                                    <ul class="project__list">
+                                        <li>3D-сцена на OpenGL та GLUT</li>
+                                        <li>Логіка переміщення дисків між стрижнями</li>
+                                        <li>Перевірка допустимості кожного ходу</li>
+                                        <li>Визначення завершення гри</li>
+                                        <li>Обертання та масштабування камери</li>
+                                        <li>Керування через клавіатуру та мишу</li>
+                                        <li>Лічильник ходів та часу гри</li>
+                                        <li>Збереження статистики у stats.txt</li>
+                                        <li>Подвійна буферизація для плавного rendering</li>
+                                    </ul>
+
+                                </div>
+
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Проєктування
+                                    </span>
+
+                                    <p>
+                                        Перед реалізацією були визначені функціональні вимоги
+                                        та побудовані UML-діаграми: Use Case, Class Diagram,
+                                        Sequence Diagram та Activity Diagram.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Technologies
+                                    </span>
+
+                                    <div class="project__tags">
+                                        <span>C++</span>
+                                        <span>OpenGL</span>
+                                        <span>GLUT</span>
+                                        <span>OOP</span>
+                                        <span>UML</span>
+                                        <span>CMake</span>
+                                        <span>Computer Graphics</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PROJECT 03 -->
+
+                <article class="project">
+
+                    <button
+                        class="project__header"
+                        type="button"
+                        aria-expanded="false"
+                    >
+
+                        <div class="project__number">
+                            03
+                        </div>
+
+                        <div class="project__name">
+                            <h3>To-Do List</h3>
+
+                            <p>
+                                HTML / CSS / JavaScript / DOM / LocalStorage
+                            </p>
+                        </div>
+
+                        <div class="project__toggle">
+                            +
+                        </div>
+
+                    </button>
+
+
+                    <div class="project__body">
+
+                        <div class="project__content project__content--vertical">
+
+                            <div class="project__visual project__visual--wide">
+
+                                <img
+                                    src="images/todo-project.png"
+                                    alt="To-Do List preview"
+                                >
+
+                            </div>
+
+
+                            <div class="project__info">
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Про проєкт
+                                    </span>
+
+                                    <p>
+                                        Невеликий task manager на vanilla JavaScript.
+                                        Користувач може створювати задачі, відмічати їх виконаними,
+                                        видаляти та фільтрувати за статусом.
+                                    </p>
+
+                                    <p>
+                                        Стан задач зберігається у LocalStorage, тому список
+                                        відновлюється після перезавантаження сторінки.
+                                        Інтерфейс оновлюється через функцію renderTasks().
+                                    </p>
+
+                                </div>
+
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Логіка
+                                    </span>
+
+                                    <p>
+                                        Задачі зберігаються у масиві об’єктів з id,
+                                        текстом та статусом виконання.
+                                        Для фільтрації використовується filter(),
+                                        а взаємодія зі списком обробляється
+                                        через події click та change.
+                                    </p>
+
+                                </div>
+
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Що реалізовано
+                                    </span>
+
+                                    <ul class="project__list">
+                                        <li>Створення та видалення задач</li>
+                                        <li>Зміна статусу через checkbox</li>
+                                        <li>Фільтри All / Active / Done</li>
+                                        <li>Збереження стану у LocalStorage</li>
+                                        <li>Динамічний rendering через DOM</li>
+                                        <li>Event delegation</li>
+                                        <li>Лічильник задач</li>
+                                    </ul>
+
+                                </div>
+
+
+                                <div class="project__block">
+
+                                    <span class="project__label">
+                                        Technologies
+                                    </span>
+
+                                    <div class="project__tags">
+                                        <span>HTML5</span>
+                                        <span>CSS3</span>
+                                        <span>JavaScript</span>
+                                        <span>DOM</span>
+                                        <span>LocalStorage</span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="section section--dark" id="about">
+
+        <div class="container about">
+
+            <div class="about__heading">
+
+                <p class="about__label">
+                    Про мене
+                </p>
+
+                <h2 class="about__title">
+                    What<br>
+                    matters.
+                </h2>
+
+            </div>
+
+
+            <div class="about__items">
+
+                <div class="about-item">
+                    <span class="about-item__number">01</span>
+
+                    <div class="about-item__content">
+                        <h3>Сильний продукт</h3>
+
+                        <p>
+                            Мені цікаво працювати з продуктами, які вже мають потенціал,
+                            сильну технічну основу та зрозумілу цінність для користувача.
+                            Особливо подобається бачити, як продукт розвивається через
+                            реальні покращення, а не просто новий функціонал заради функціоналу.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="about-item">
+                    <span class="about-item__number">02</span>
+
+                    <div class="about-item__content">
+                        <h3>User experience</h3>
+
+                        <p>
+                            Мені близький напрям, де розробка пов’язана з поведінкою
+                            користувачів, feedback та розумінням того, що саме варто
+                            змінювати у продукті, щоб він ставав зручнішим і сильнішим.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="about-item">
+                    <span class="about-item__number">03</span>
+
+                    <div class="about-item__content">
+                        <h3>Tech + Marketing</h3>
+
+                        <p>
+                            Хочу розвиватися на перетині розробки та маркетингу,
+                            де важливо не тільки реалізувати рішення технічно,
+                            а й розуміти продукт, аудиторію та результат змін.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="about-item">
+                    <span class="about-item__number">04</span>
+
+                    <div class="about-item__content">
+                        <h3>Люди та системи</h3>
+
+                        <p>
+                            Маю досвід роботи з людьми, клієнтами та внутрішніми процесами,
+                            тому мені комфортно не лише з технічними задачами, а й з
+                            комунікацією та feedback. У майбутньому хочу глибше
+                            розвиватися у software engineering та системному аналізі.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="section section--contact" id="contact">
+
+        <div class="container contact">
+
+            <p class="contact__label">
+                Контакти
+            </p>
+
+            <h2 class="contact__title">
+                Let's build<br>
+                something.
+            </h2>
+
+            <div class="contact__bottom">
+
+                <p class="contact__text">
+                    Відкрита до internship та junior development opportunities.
+                </p>
+
+                <div class="contact__links">
+
+                    <a href="mailto:noskovaolena185@gmail.com">
+                        Email ↗
+                    </a>
+
+                    <a href="www.linkedin.com/in/olena-noskova-76151241a" target="_blank">
+                        LinkedIn ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="container footer__inner">
+
+        <p>
+            © 2026 Olena
+        </p>
+
+        <a href="#home">
+            Нагору ↑
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
